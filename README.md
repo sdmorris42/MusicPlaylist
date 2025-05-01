@@ -1,4 +1,5 @@
 # MusicPlaylist
+This project is the Honors Project for CSC 1310 Data Structures and Algorithms.
 This project uses circular queue to simulate a music playlist. 
 Queues are used in programming when the first element 
 inserted into a list needs to be the first element out (FIFO). 
