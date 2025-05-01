@@ -35,9 +35,9 @@ name of the artist. The public members of the song class includes
 a constructor that initializes the public members and the 
 primaryDisplay and secondaryDisplay functions. The 
 primaryDisplay function is used to display the current song 
-being played, as shown in figure 1. The secondaryDisplay 
+being played. The secondaryDisplay 
 function is used to display the previous and next songs being 
-played, as shown in figure 2.  
+played.  
 
   The CircularQueue class is used to store the songs in an array 
 and store the functions used to implement the circular queue. 
@@ -116,7 +116,7 @@ circular queue implementation.
 
   The Main.cpp file first calls the header file that contains the functions to 
 implement the circular queue. The Main.cpp file uses ASCII text and the setw 
-function to make the output look cleaner, as shown in figure 3 and 4. In the 
+function to make the output look cleaner. In the 
 main function, the integers called loop and numSongs is defined to hold the 
 number of times the playlist will repeat and the number of songs to add  
 to the playlist. In order to better test the program, the main 
@@ -133,4 +133,4 @@ attributes in the song class. Those songs are then added to the
 queue. The cycleSongs function passes the loop integer, which 
 starts the music playlist. After the playlist finishes cycling 
 through the songs, the main function then outputs some ASCII 
-text, as shown in figure 4, and ends the program.
+text and ends the program.
